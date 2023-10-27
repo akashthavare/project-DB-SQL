@@ -33,7 +33,7 @@ label {
 		
 				steps {
 						
-						sh "scp -r target/LoginWebApp.war saccount@10.0.2.51:/data/project/wars"
+						sh "cp -r target/LoginWebApp.war /mnt/webserver/apache-tomcat-9.0.82/webapps"
 
 						}
 				
